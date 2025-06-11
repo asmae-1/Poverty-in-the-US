@@ -37,11 +37,11 @@ if (nrow(new_dataset) >= 57) {
 } else {
   warning("Dataset has fewer than 57 rows; cannot remove rows 5 to 57.")
 }
+new_dataset <- new_dataset[-c(54, 55), ]
+
 
 print(new_dataset)
+rm(cut_column, end_col, start_col, vars_to_remove)
 
-------------------------------------
 # Check the result
-head(new_dataset)
-write.csv(new_data_set, "dataset.csv") #last step when saving, 
-write.csv(new_data_set, "new_data_set111/new_dataset.csv") #idk if this works
+write.csv(new_dataset, "dataset.csv") #last step when saving, 
