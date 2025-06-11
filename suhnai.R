@@ -40,3 +40,28 @@ head(data_filtered)
 # remove older years
 income_data_new <- income_data_new %>% select(State, `2021-2023`, `2020-2022`, `2019-2021`, `2018-2020 (41)`, `2017-2019 (40)`)
 write_csv(income_data_new, "new_data_set111/final_income_data.csv")
+
+# Load the dataset
+final_income_data <- read_csv("new_data_set111/final_income_data.csv")
+
+# Reshape the dataset using pivot_longer
+long_income_data <- final_income_data %>%
+  pivot_longer(
+    cols = -State,
+    names_to = "Period",
+    values_to = "Median_Income"
+  )
+
+# View the reshaped dataset
+View(long_income_data)
+
+substr("2020-2023 (40)", 6, 9)
+substr("2017-2019 (40)", 6, 9)
+substr("2018-2020 (41)", 6, 9)
+
+# Convert all columns except the first one to numeric
+data <- data %>%
+  mutate(across(-1, ~ as.numeric(.)))
+
+# View result
+str(data)
