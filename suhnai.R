@@ -37,3 +37,6 @@ income_data_new = income_data[, setdiff(1:ncol(income_data), bad_colnums)]
 
 head(data_filtered)
 
+# remove older years
+income_data_new <- income_data_new %>% select(State, `2021-2023`, `2020-2022`, `2019-2021`, `2018-2020 (41)`, `2017-2019 (40)`)
+write_csv(income_data_new, "new_data_set111/final_income_data.csv")
