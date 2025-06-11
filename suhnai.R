@@ -54,13 +54,15 @@ long_income_data <- final_income_data %>%
 
 # View the reshaped dataset
 View(long_income_data)
+long_income_data = as.data.frame(long_income_data)
+long_income_data[, "Period"] = substr(long_income_data[, "Period"], 6, 9)
 
 substr("2020-2023 (40)", 6, 9)
 substr("2017-2019 (40)", 6, 9)
 substr("2018-2020 (41)", 6, 9)
 
 # Convert all columns except the first one to numeric
-data <- data %>%
+data <- long_income_data %>%
   mutate(across(-1, ~ as.numeric(.)))
 
 # View result
