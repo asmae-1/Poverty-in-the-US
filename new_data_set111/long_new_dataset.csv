@@ -1,0 +1,991 @@
+...1,State,year,Percent in poverty
+1,NA,2023,Percent in poverty
+1,NA,2022,Percent in poverty
+1,NA,2021,Percent in poverty
+1,NA,2020,Percent in poverty
+1,NA,2019,Percent in poverty
+1,NA,2018,Percent in poverty
+1,NA,2017,Percent in poverty
+1,NA,2016,Percent in poverty
+1,NA,2015,Percent in poverty
+1,NA,2014,Percent in poverty
+1,NA,2013,Percent in poverty
+1,NA,2012,Percent in poverty
+1,NA,2011,Percent in poverty
+1,NA,2010,Percent in poverty
+1,NA,2009,Percent in poverty
+1,NA,2008,Percent in poverty
+1,NA,2007,Percent in poverty
+1,NA,2006,Percent in poverty
+2,United States,2023,11.4
+2,United States,2022,11.5
+2,United States,2021,11.2
+2,United States,2020,11.2
+2,United States,2019,11.5
+2,United States,2018,12.3
+2,United States,2017,12.8
+2,United States,2016,13.7
+2,United States,2015,14.4
+2,United States,2014,N
+2,United States,2013,14.8
+2,United States,2012,15
+2,United States,2011,14.8
+2,United States,2010,14.2
+2,United States,2009,13.4
+2,United States,2008,12.7
+2,United States,2007,12.5
+2,United States,2006,12.5
+3,Alabama,2023,14.6
+3,Alabama,2022,14.8
+3,Alabama,2021,14.5
+3,Alabama,2020,14.6
+3,Alabama,2019,14.7
+3,Alabama,2018,16
+3,Alabama,2017,15.8
+3,Alabama,2016,16.8
+3,Alabama,2015,17.5
+3,Alabama,2014,N
+3,Alabama,2013,16.100000000000001
+3,Alabama,2012,16.2
+3,Alabama,2011,16.399999999999999
+3,Alabama,2010,16
+3,Alabama,2009,15.1
+3,Alabama,2008,14.4
+3,Alabama,2007,15.2
+3,Alabama,2006,16
+4,Alaska,2023,10.4
+4,Alaska,2022,11.5
+4,Alaska,2021,11.7
+4,Alaska,2020,12.3
+4,Alaska,2019,11.8
+4,Alaska,2018,12.2
+4,Alaska,2017,12.1
+4,Alaska,2016,11.2
+4,Alaska,2015,10.199999999999999
+4,Alaska,2014,N
+4,Alaska,2013,10.9
+4,Alaska,2012,11.4
+4,Alaska,2011,12
+4,Alaska,2010,10.8
+4,Alaska,2009,9.1999999999999993
+4,Alaska,2008,8.1999999999999993
+4,Alaska,2007,8.8000000000000007
+4,Alaska,2006,9.3000000000000007
+5,Arizona,2023,12.4
+5,Arizona,2022,12.1
+5,Arizona,2021,11.2
+5,Arizona,2020,11.2
+5,Arizona,2019,12.1
+5,Arizona,2018,14.4
+5,Arizona,2017,15.5
+5,Arizona,2016,18.100000000000001
+5,Arizona,2015,18.7
+5,Arizona,2014,N
+5,Arizona,2013,18.8
+5,Arizona,2012,18.3
+5,Arizona,2011,19.100000000000001
+5,Arizona,2010,19.3
+5,Arizona,2009,17.899999999999999
+5,Arizona,2008,15.6
+5,Arizona,2007,14.6
+5,Arizona,2006,14.7
+6,Arkansas,2023,15.7
+6,Arkansas,2022,15.8
+6,Arkansas,2021,15.1
+6,Arkansas,2020,14.7
+6,Arkansas,2019,15
+6,Arkansas,2018,15.5
+6,Arkansas,2017,15.6
+6,Arkansas,2016,16.8
+6,Arkansas,2015,16.100000000000001
+6,Arkansas,2014,N
+6,Arkansas,2013,18.600000000000001
+6,Arkansas,2012,18
+6,Arkansas,2011,17.600000000000001
+6,Arkansas,2010,16.5
+6,Arkansas,2009,16
+6,Arkansas,2008,15.6
+6,Arkansas,2007,15.1
+6,Arkansas,2006,15.6
+7,California,2023,11.7
+7,California,2022,11.4
+7,California,2021,11
+7,California,2020,11
+7,California,2019,11.4
+7,California,2018,12.5
+7,California,2017,13.4
+7,California,2016,14.5
+7,California,2015,14.9
+7,California,2014,N
+7,California,2013,15.9
+7,California,2012,16.399999999999999
+7,California,2011,16.2
+7,California,2010,15.4
+7,California,2009,14.2
+7,California,2008,13.2
+7,California,2007,12.7
+7,California,2006,12.9
+8,Colorado,2023,8.1999999999999993
+8,Colorado,2022,8.5
+8,Colorado,2021,8.9
+8,Colorado,2020,9.3000000000000007
+8,Colorado,2019,9.1
+8,Colorado,2018,8.9
+8,Colorado,2017,8.6999999999999993
+8,Colorado,2016,10.199999999999999
+8,Colorado,2015,11
+8,Colorado,2014,N
+8,Colorado,2013,11.9
+8,Colorado,2012,12.5
+8,Colorado,2011,12.6
+8,Colorado,2010,11.9
+8,Colorado,2009,11.1
+8,Colorado,2008,10.199999999999999
+8,Colorado,2007,10.3
+8,Colorado,2006,10.4
+9,Connecticut,2023,8.9
+9,Connecticut,2022,9.8000000000000007
+9,Connecticut,2021,9.1999999999999993
+9,Connecticut,2020,9.9
+9,Connecticut,2019,9.6999999999999993
+9,Connecticut,2018,9.9
+9,Connecticut,2017,9.9
+9,Connecticut,2016,9.1999999999999993
+9,Connecticut,2015,9.5
+9,Connecticut,2014,N
+9,Connecticut,2013,10.6
+9,Connecticut,2012,9.6999999999999993
+9,Connecticut,2011,9
+9,Connecticut,2010,8.3000000000000007
+9,Connecticut,2009,8.5
+9,Connecticut,2008,8.3000000000000007
+9,Connecticut,2007,8.6999999999999993
+9,Connecticut,2006,9.1
+10,Delaware,2023,9.6
+10,Delaware,2022,10.5
+10,Delaware,2021,9.6
+10,Delaware,2020,8.1
+10,Delaware,2019,7.6
+10,Delaware,2018,9.6
+10,Delaware,2017,10.6
+10,Delaware,2016,11.2
+10,Delaware,2015,11.1
+10,Delaware,2014,N
+10,Delaware,2013,13.7
+10,Delaware,2012,13.1
+10,Delaware,2011,12.7
+10,Delaware,2010,11.4
+10,Delaware,2009,10.4
+10,Delaware,2008,9.4
+10,Delaware,2007,9.3000000000000007
+10,Delaware,2006,9.1999999999999993
+11,District of Columbia,2023,13.4
+11,District of Columbia,2022,14.7
+11,District of Columbia,2021,14.4
+11,District of Columbia,2020,14.7
+11,District of Columbia,2019,13.7
+11,District of Columbia,2018,14.9
+11,District of Columbia,2017,15.5
+11,District of Columbia,2016,17.3
+11,District of Columbia,2015,19.600000000000001
+11,District of Columbia,2014,N
+11,District of Columbia,2013,19.899999999999999
+11,District of Columbia,2012,19.3
+11,District of Columbia,2011,19.100000000000001
+11,District of Columbia,2010,18
+11,District of Columbia,2009,17.5
+11,District of Columbia,2008,17.600000000000001
+11,District of Columbia,2007,19.100000000000001
+11,District of Columbia,2006,18.8
+12,Florida,2023,12.5
+12,Florida,2022,13.1
+12,Florida,2021,12.5
+12,Florida,2020,12.8
+12,Florida,2019,12.8
+12,Florida,2018,13.6
+12,Florida,2017,14.3
+12,Florida,2016,15.2
+12,Florida,2015,15.9
+12,Florida,2014,N
+12,Florida,2013,15
+12,Florida,2012,15.4
+12,Florida,2011,15.2
+12,Florida,2010,14.6
+12,Florida,2009,13.4
+12,Florida,2008,12.4
+12,Florida,2007,11.7
+12,Florida,2006,11.4
+13,Georgia,2023,12.9
+13,Georgia,2022,13
+13,Georgia,2021,13.1
+13,Georgia,2020,13.4
+13,Georgia,2019,13.3
+13,Georgia,2018,14.7
+13,Georgia,2017,15.6
+13,Georgia,2016,16.8
+13,Georgia,2015,17.8
+13,Georgia,2014,N
+13,Georgia,2013,17.600000000000001
+13,Georgia,2012,18.399999999999999
+13,Georgia,2011,18.5
+13,Georgia,2010,17.600000000000001
+13,Georgia,2009,15.8
+13,Georgia,2008,13.9
+13,Georgia,2007,13.5
+13,Georgia,2006,13.3
+14,Hawaii,2023,9.3000000000000007
+14,Hawaii,2022,10.199999999999999
+14,Hawaii,2021,10.1
+14,Hawaii,2020,9.5
+14,Hawaii,2019,9.4
+14,Hawaii,2018,9.5
+14,Hawaii,2017,10.199999999999999
+14,Hawaii,2016,10.3
+14,Hawaii,2015,10.8
+14,Hawaii,2014,N
+14,Hawaii,2013,12.3
+14,Hawaii,2012,12.8
+14,Hawaii,2011,12.3
+14,Hawaii,2010,11.6
+14,Hawaii,2009,9.9
+14,Hawaii,2008,8.9
+14,Hawaii,2007,8.4
+14,Hawaii,2006,8.8000000000000007
+15,Idaho,2023,8.8000000000000007
+15,Idaho,2022,8.9
+15,Idaho,2021,8.5
+15,Idaho,2020,9.1999999999999993
+15,Idaho,2019,10
+15,Idaho,2018,11.3
+15,Idaho,2017,11.7
+15,Idaho,2016,11.9
+15,Idaho,2015,12.4
+15,Idaho,2014,N
+15,Idaho,2013,14.4
+15,Idaho,2012,14.7
+15,Idaho,2011,14.4
+15,Idaho,2010,13.2
+15,Idaho,2009,12
+15,Idaho,2008,10.6
+15,Idaho,2007,9.8000000000000007
+15,Idaho,2006,9.8000000000000007
+16,Illinois,2023,10
+16,Illinois,2022,9.4
+16,Illinois,2021,9.3000000000000007
+16,Illinois,2020,9.1999999999999993
+16,Illinois,2019,10.4
+16,Illinois,2018,10.9
+16,Illinois,2017,11.3
+16,Illinois,2016,12.2
+16,Illinois,2015,12.7
+16,Illinois,2014,N
+16,Illinois,2013,13.4
+16,Illinois,2012,13.6
+16,Illinois,2011,13.8
+16,Illinois,2010,13.2
+16,Illinois,2009,11.8
+16,Illinois,2008,11
+16,Illinois,2007,10.7
+16,Illinois,2006,11.4
+17,Indiana,2023,9.6999999999999993
+17,Indiana,2022,10.9
+17,Indiana,2021,10.8
+17,Indiana,2020,11.2
+17,Indiana,2019,11.1
+17,Indiana,2018,11.8
+17,Indiana,2017,12.3
+17,Indiana,2016,13.3
+17,Indiana,2015,14.9
+17,Indiana,2014,N
+17,Indiana,2013,14.1
+17,Indiana,2012,15.7
+17,Indiana,2011,16
+17,Indiana,2010,15.6
+17,Indiana,2009,14.1
+17,Indiana,2008,12.3
+17,Indiana,2007,11.7
+17,Indiana,2006,11.6
+18,Iowa,2023,9
+18,Iowa,2022,9.4
+18,Iowa,2021,9.5
+18,Iowa,2020,9.1999999999999993
+18,Iowa,2019,8.6999999999999993
+18,Iowa,2018,9.1999999999999993
+18,Iowa,2017,9.6999999999999993
+18,Iowa,2016,10.1
+18,Iowa,2015,11.3
+18,Iowa,2014,N
+18,Iowa,2013,10.5
+18,Iowa,2012,10.3
+18,Iowa,2011,10.5
+18,Iowa,2010,10.199999999999999
+18,Iowa,2009,9.6999999999999993
+18,Iowa,2008,9.6
+18,Iowa,2007,10.199999999999999
+18,Iowa,2006,10.8
+19,Kansas,2023,8.8000000000000007
+19,Kansas,2022,8.9
+19,Kansas,2021,8.6
+19,Kansas,2020,8.6999999999999993
+19,Kansas,2019,10.4
+19,Kansas,2018,10.8
+19,Kansas,2017,13.4
+19,Kansas,2016,12.5
+19,Kansas,2015,12.6
+19,Kansas,2014,N
+19,Kansas,2013,13.8
+19,Kansas,2012,14.3
+19,Kansas,2011,14.2
+19,Kansas,2010,13.6
+19,Kansas,2009,12.7
+19,Kansas,2008,12.4
+19,Kansas,2007,12.3
+19,Kansas,2006,12.2
+20,Kentucky,2023,15.6
+20,Kentucky,2022,15.8
+20,Kentucky,2021,14.6
+20,Kentucky,2020,14.4
+20,Kentucky,2019,14.2
+20,Kentucky,2018,15.3
+20,Kentucky,2017,16.399999999999999
+20,Kentucky,2016,18.2
+20,Kentucky,2015,20.5
+20,Kentucky,2014,N
+20,Kentucky,2013,18
+20,Kentucky,2012,17.2
+20,Kentucky,2011,16.899999999999999
+20,Kentucky,2010,17.2
+20,Kentucky,2009,16.5
+20,Kentucky,2008,16.5
+20,Kentucky,2007,15.7
+20,Kentucky,2006,16.5
+21,Louisiana,2023,18.899999999999999
+21,Louisiana,2022,16.899999999999999
+21,Louisiana,2021,17.3
+21,Louisiana,2020,17.5
+21,Louisiana,2019,19.100000000000001
+21,Louisiana,2018,19.8
+21,Louisiana,2017,20
+21,Louisiana,2016,20.6
+21,Louisiana,2015,21
+21,Louisiana,2014,N
+21,Louisiana,2013,20.5
+21,Louisiana,2012,21.2
+21,Louisiana,2011,18.899999999999999
+21,Louisiana,2010,18
+21,Louisiana,2009,16.2
+21,Louisiana,2008,17.100000000000001
+21,Louisiana,2007,17.100000000000001
+21,Louisiana,2006,17.399999999999999
+22,Maine,2023,8.6999999999999993
+22,Maine,2022,8.9
+22,Maine,2021,9.1999999999999993
+22,Maine,2020,10
+22,Maine,2019,11.5
+22,Maine,2018,12.6
+22,Maine,2017,12.3
+22,Maine,2016,13.2
+22,Maine,2015,12.8
+22,Maine,2014,N
+22,Maine,2013,12.8
+22,Maine,2012,13
+22,Maine,2011,12.5
+22,Maine,2010,12
+22,Maine,2009,11.4
+22,Maine,2008,11
+22,Maine,2007,11.2
+22,Maine,2006,11.5
+23,Maryland,2023,8.4
+23,Maryland,2022,8.6
+23,Maryland,2021,8
+23,Maryland,2020,8.1
+23,Maryland,2019,7.5
+23,Maryland,2018,7.1
+23,Maryland,2017,8.1999999999999993
+23,Maryland,2016,8.9
+23,Maryland,2015,10
+23,Maryland,2014,N
+23,Maryland,2013,9.8000000000000007
+23,Maryland,2012,10
+23,Maryland,2011,9.9
+23,Maryland,2010,9.6999999999999993
+23,Maryland,2009,9
+23,Maryland,2008,8.6
+23,Maryland,2007,9
+23,Maryland,2006,9.3000000000000007
+24,Massachusetts,2023,8.8000000000000007
+24,Massachusetts,2022,8.6
+24,Massachusetts,2021,7.9
+24,Massachusetts,2020,8.1999999999999993
+24,Massachusetts,2019,9.1999999999999993
+24,Massachusetts,2018,9.8000000000000007
+24,Massachusetts,2017,10.6
+24,Massachusetts,2016,11.5
+24,Massachusetts,2015,12.4
+24,Massachusetts,2014,N
+24,Massachusetts,2013,11.3
+24,Massachusetts,2012,10.9
+24,Massachusetts,2011,10.8
+24,Massachusetts,2010,11
+24,Massachusetts,2009,11.1
+24,Massachusetts,2008,11.5
+24,Massachusetts,2007,11.1
+24,Massachusetts,2006,10.5
+25,Michigan,2023,11.9
+25,Michigan,2022,11.7
+25,Michigan,2021,11
+25,Michigan,2020,10.6
+25,Michigan,2019,10.7
+25,Michigan,2018,11
+25,Michigan,2017,12.2
+25,Michigan,2016,12.9
+25,Michigan,2015,13.4
+25,Michigan,2014,N
+25,Michigan,2013,14.4
+25,Michigan,2012,14.8
+25,Michigan,2011,14.9
+25,Michigan,2010,14.2
+25,Michigan,2009,12.6
+25,Michigan,2008,12.4
+25,Michigan,2007,12
+25,Michigan,2006,12.9
+26,Minnesota,2023,7.2
+26,Minnesota,2022,7.7
+26,Minnesota,2021,7
+26,Minnesota,2020,7.4
+26,Minnesota,2019,7.4
+26,Minnesota,2018,8.6999999999999993
+26,Minnesota,2017,8.6
+26,Minnesota,2016,8.3000000000000007
+26,Minnesota,2015,9
+26,Minnesota,2014,N
+26,Minnesota,2013,10.7
+26,Minnesota,2012,10.3
+26,Minnesota,2011,10.6
+26,Minnesota,2010,10.6
+26,Minnesota,2009,10.1
+26,Minnesota,2008,9.1
+26,Minnesota,2007,8.5
+26,Minnesota,2006,7.7
+27,Mississippi,2023,17.3
+27,Mississippi,2022,17.8
+27,Mississippi,2021,18.100000000000001
+27,Mississippi,2020,18.8
+27,Mississippi,2019,19.100000000000001
+27,Mississippi,2018,19.8
+27,Mississippi,2017,19.5
+27,Mississippi,2016,20.8
+27,Mississippi,2015,20.100000000000001
+27,Mississippi,2014,N
+27,Mississippi,2013,20.6
+27,Mississippi,2012,20.6
+27,Mississippi,2011,21
+27,Mississippi,2010,21.2
+27,Mississippi,2009,21.3
+27,Mississippi,2008,20.5
+27,Mississippi,2007,21.1
+27,Mississippi,2006,19.8
+28,Missouri,2023,11.1
+28,Missouri,2022,11.5
+28,Missouri,2021,10.8
+28,Missouri,2020,10.8
+28,Missouri,2019,11
+28,Missouri,2018,11.9
+28,Missouri,2017,11.3
+28,Missouri,2016,11
+28,Missouri,2015,12.6
+28,Missouri,2014,N
+28,Missouri,2013,14.8
+28,Missouri,2012,15.2
+28,Missouri,2011,15.3
+28,Missouri,2010,14.6
+28,Missouri,2009,13.9
+28,Missouri,2008,12.5
+28,Missouri,2007,11.9
+28,Missouri,2006,11.7
+29,Montana,2023,9.6999999999999993
+29,Montana,2022,10.7
+29,Montana,2021,10.4
+29,Montana,2020,10.3
+29,Montana,2019,10.1
+29,Montana,2018,10.4
+29,Montana,2017,11.1
+29,Montana,2016,11.9
+29,Montana,2015,11.5
+29,Montana,2014,N
+29,Montana,2013,14.8
+29,Montana,2012,14.8
+29,Montana,2011,14.8
+29,Montana,2010,13.6
+29,Montana,2009,13.1
+29,Montana,2008,13.1
+29,Montana,2007,13.4
+29,Montana,2006,13.8
+30,Nebraska,2023,8.4
+30,Nebraska,2022,8.1
+30,Nebraska,2021,8.4
+30,Nebraska,2020,9.1999999999999993
+30,Nebraska,2019,10.3
+30,Nebraska,2018,10.4
+30,Nebraska,2017,10.1
+30,Nebraska,2016,10.6
+30,Nebraska,2015,10.9
+30,Nebraska,2014,N
+30,Nebraska,2013,11.2
+30,Nebraska,2012,10.9
+30,Nebraska,2011,10.1
+30,Nebraska,2010,10.199999999999999
+30,Nebraska,2009,10.1
+30,Nebraska,2008,10.199999999999999
+30,Nebraska,2007,9.9
+30,Nebraska,2006,9.6999999999999993
+31,Nevada,2023,12.9
+31,Nevada,2022,12.6
+31,Nevada,2021,12.1
+31,Nevada,2020,12.1
+31,Nevada,2019,12.2
+31,Nevada,2018,12.2
+31,Nevada,2017,12.3
+31,Nevada,2016,13.3
+31,Nevada,2015,14.8
+31,Nevada,2014,N
+31,Nevada,2013,16.2
+31,Nevada,2012,15.9
+31,Nevada,2011,15
+31,Nevada,2010,13.5
+31,Nevada,2009,11.2
+31,Nevada,2008,10
+31,Nevada,2007,10
+31,Nevada,2006,10.3
+32,New Hampshire,2023,7.1
+32,New Hampshire,2022,7.1
+32,New Hampshire,2021,5.6
+32,New Hampshire,2020,5.4
+32,New Hampshire,2019,5.6
+32,New Hampshire,2018,6.4
+32,New Hampshire,2017,6.7
+32,New Hampshire,2016,6.9
+32,New Hampshire,2015,6.6
+32,New Hampshire,2014,N
+32,New Hampshire,2013,8.3000000000000007
+32,New Hampshire,2012,7.4
+32,New Hampshire,2011,7.3
+32,New Hampshire,2010,7.1
+32,New Hampshire,2009,6.9
+32,New Hampshire,2008,6.1
+32,New Hampshire,2007,5.6
+32,New Hampshire,2006,5.5
+33,New Jersey,2023,8.4
+33,New Jersey,2022,8.1999999999999993
+33,New Jersey,2021,7.3
+33,New Jersey,2020,7.6
+33,New Jersey,2019,8.1999999999999993
+33,New Jersey,2018,9.1
+33,New Jersey,2017,9.6999999999999993
+33,New Jersey,2016,10.7
+33,New Jersey,2015,10.8
+33,New Jersey,2014,N
+33,New Jersey,2013,10.6
+33,New Jersey,2012,10.6
+33,New Jersey,2011,10.6
+33,New Jersey,2010,9.9
+33,New Jersey,2009,9.1
+33,New Jersey,2008,8.9
+33,New Jersey,2007,8.1
+33,New Jersey,2006,7.9
+34,New Mexico,2023,18.5
+34,New Mexico,2022,18.3
+34,New Mexico,2021,16.7
+34,New Mexico,2020,16.2
+34,New Mexico,2019,17.2
+34,New Mexico,2018,18.7
+34,New Mexico,2017,18.7
+34,New Mexico,2016,19.100000000000001
+34,New Mexico,2015,21.8
+34,New Mexico,2014,N
+34,New Mexico,2013,21.4
+34,New Mexico,2012,20.3
+34,New Mexico,2011,19.899999999999999
+34,New Mexico,2010,19
+34,New Mexico,2009,17.600000000000001
+34,New Mexico,2008,16.7
+34,New Mexico,2007,16.3
+34,New Mexico,2006,17.100000000000001
+35,New York,2023,12.1
+35,New York,2022,12.4
+35,New York,2021,12.3
+35,New York,2020,11.8
+35,New York,2019,12.1
+35,New York,2018,11.8
+35,New York,2017,13.2
+35,New York,2016,13.4
+35,New York,2015,15.1
+35,New York,2014,N
+35,New York,2013,15.9
+35,New York,2012,16.399999999999999
+35,New York,2011,15.9
+35,New York,2010,15.3
+35,New York,2009,14.8
+35,New York,2008,14.2
+35,New York,2007,14.4
+35,New York,2006,14.5
+36,North Carolina,2023,13.2
+36,North Carolina,2022,13.3
+36,North Carolina,2021,12.8
+36,North Carolina,2020,13.2
+36,North Carolina,2019,13.6
+36,North Carolina,2018,14.1
+36,North Carolina,2017,14.4
+36,North Carolina,2016,15.3
+36,North Carolina,2015,15.7
+36,North Carolina,2014,N
+36,North Carolina,2013,17.100000000000001
+36,North Carolina,2012,16.7
+36,North Carolina,2011,16.600000000000001
+36,North Carolina,2010,16.100000000000001
+36,North Carolina,2009,15.4
+36,North Carolina,2008,14.4
+36,North Carolina,2007,14.2
+36,North Carolina,2006,13.8
+37,North Dakota,2023,9.4
+37,North Dakota,2022,9.6
+37,North Dakota,2021,9.1
+37,North Dakota,2020,9.5
+37,North Dakota,2019,10.1
+37,North Dakota,2018,10.9
+37,North Dakota,2017,11
+37,North Dakota,2016,10.5
+37,North Dakota,2015,11.2
+37,North Dakota,2014,N
+37,North Dakota,2013,10.4
+37,North Dakota,2012,11.3
+37,North Dakota,2011,11.2
+37,North Dakota,2010,11.8
+37,North Dakota,2009,10.7
+37,North Dakota,2008,10.8
+37,North Dakota,2007,10.6
+37,North Dakota,2006,10.7
+38,Ohio,2023,10.9
+38,Ohio,2022,11.4
+38,Ohio,2021,12.2
+38,Ohio,2020,12.3
+38,Ohio,2019,12.4
+38,Ohio,2018,12.8
+38,Ohio,2017,13.3
+38,Ohio,2016,14.3
+38,Ohio,2015,14.7
+38,Ohio,2014,N
+38,Ohio,2013,14.7
+38,Ohio,2012,15.3
+38,Ohio,2011,14.6
+38,Ohio,2010,14.1
+38,Ohio,2009,13.3
+38,Ohio,2008,12.9
+38,Ohio,2007,12.4
+38,Ohio,2006,12
+39,Oklahoma,2023,14.9
+39,Oklahoma,2022,15.8
+39,Oklahoma,2021,13.8
+39,Oklahoma,2020,13.3
+39,Oklahoma,2019,12.4
+39,Oklahoma,2018,14
+39,Oklahoma,2017,13.8
+39,Oklahoma,2016,15.3
+39,Oklahoma,2015,17.5
+39,Oklahoma,2014,N
+39,Oklahoma,2013,15.3
+39,Oklahoma,2012,16.100000000000001
+39,Oklahoma,2011,14.4
+39,Oklahoma,2010,14.3
+39,Oklahoma,2009,13.3
+39,Oklahoma,2008,14.1
+39,Oklahoma,2007,14.7
+39,Oklahoma,2006,13.9
+40,Oregon,2023,9.8000000000000007
+40,Oregon,2022,9.5
+40,Oregon,2021,8.9
+40,Oregon,2020,9.1
+40,Oregon,2019,9.8000000000000007
+40,Oregon,2018,10.6
+40,Oregon,2017,11.3
+40,Oregon,2016,12.7
+40,Oregon,2015,13.4
+40,Oregon,2014,N
+40,Oregon,2013,14.3
+40,Oregon,2012,14.1
+40,Oregon,2011,14
+40,Oregon,2010,12.7
+40,Oregon,2009,12.2
+40,Oregon,2008,11.7
+40,Oregon,2007,12.2
+40,Oregon,2006,11.9
+41,Pennsylvania,2023,10.6
+41,Pennsylvania,2022,10.8
+41,Pennsylvania,2021,10
+41,Pennsylvania,2020,10.4
+41,Pennsylvania,2019,10.5
+41,Pennsylvania,2018,11.5
+41,Pennsylvania,2017,11.5
+41,Pennsylvania,2016,12
+41,Pennsylvania,2015,12
+41,Pennsylvania,2014,N
+41,Pennsylvania,2013,13
+41,Pennsylvania,2012,12.9
+41,Pennsylvania,2011,12
+41,Pennsylvania,2010,11.4
+41,Pennsylvania,2009,10.8
+41,Pennsylvania,2008,10.9
+41,Pennsylvania,2007,11
+41,Pennsylvania,2006,11.3
+42,Rhode Island,2023,8.9
+42,Rhode Island,2022,8.8000000000000007
+42,Rhode Island,2021,9
+42,Rhode Island,2020,8.9
+42,Rhode Island,2019,9.8000000000000007
+42,Rhode Island,2018,10.3
+42,Rhode Island,2017,11.8
+42,Rhode Island,2016,11.5
+42,Rhode Island,2015,10.8
+42,Rhode Island,2014,N
+42,Rhode Island,2013,13.5
+42,Rhode Island,2012,13.7
+42,Rhode Island,2011,13.5
+42,Rhode Island,2010,13.2
+42,Rhode Island,2009,11.7
+42,Rhode Island,2008,10.9
+42,Rhode Island,2007,10.7
+42,Rhode Island,2006,11.3
+43,South Carolina,2023,12.7
+43,South Carolina,2022,13.3
+43,South Carolina,2021,14
+43,South Carolina,2020,13.7
+43,South Carolina,2019,14.4
+43,South Carolina,2018,14.1
+43,South Carolina,2017,14.6
+43,South Carolina,2016,14.9
+43,South Carolina,2015,16.7
+43,South Carolina,2014,N
+43,South Carolina,2013,17.2
+43,South Carolina,2012,17.5
+43,South Carolina,2011,16.600000000000001
+43,South Carolina,2010,14.9
+43,South Carolina,2009,13.9
+43,South Carolina,2008,13.1
+43,South Carolina,2007,13.4
+43,South Carolina,2006,13.7
+44,South Dakota,2023,8.3000000000000007
+44,South Dakota,2022,9.6999999999999993
+44,South Dakota,2021,10.199999999999999
+44,South Dakota,2020,11
+44,South Dakota,2019,10.6
+44,South Dakota,2018,11.8
+44,South Dakota,2017,12.9
+44,South Dakota,2016,13.7
+44,South Dakota,2015,13.3
+44,South Dakota,2014,N
+44,South Dakota,2013,12.5
+44,South Dakota,2012,13.6
+44,South Dakota,2011,14.1
+44,South Dakota,2010,13.6
+44,South Dakota,2009,12.2
+44,South Dakota,2008,11.1
+44,South Dakota,2007,10.6
+44,South Dakota,2006,12
+45,Tennessee,2023,10.6
+45,Tennessee,2022,11.4
+45,Tennessee,2021,12.3
+45,Tennessee,2020,12.7
+45,Tennessee,2019,12.1
+45,Tennessee,2018,12.6
+45,Tennessee,2017,13.7
+45,Tennessee,2016,15.6
+45,Tennessee,2015,15.8
+45,Tennessee,2014,N
+45,Tennessee,2013,17.7
+45,Tennessee,2012,17.2
+45,Tennessee,2011,16.5
+45,Tennessee,2010,16.100000000000001
+45,Tennessee,2009,15.4
+45,Tennessee,2008,14.9
+45,Tennessee,2007,14.8
+45,Tennessee,2006,15.2
+46,Texas,2023,13.1
+46,Texas,2022,13.7
+46,Texas,2021,12.9
+46,Texas,2020,12.9
+46,Texas,2019,12.6
+46,Texas,2018,13.7
+46,Texas,2017,14
+46,Texas,2016,14.9
+46,Texas,2015,16
+46,Texas,2014,N
+46,Texas,2013,17.100000000000001
+46,Texas,2012,17.600000000000001
+46,Texas,2011,17.7
+46,Texas,2010,17.2
+46,Texas,2009,16.600000000000001
+46,Texas,2008,16.3
+46,Texas,2007,16.399999999999999
+46,Texas,2006,16.399999999999999
+47,Utah,2023,6.7
+47,Utah,2022,7.1
+47,Utah,2021,7.5
+47,Utah,2020,7.2
+47,Utah,2019,7.6
+47,Utah,2018,7.9
+47,Utah,2017,8.8000000000000007
+47,Utah,2016,9.3000000000000007
+47,Utah,2015,10.5
+47,Utah,2014,N
+47,Utah,2013,10.1
+47,Utah,2012,10.7
+47,Utah,2011,10.199999999999999
+47,Utah,2010,9.1
+47,Utah,2009,9
+47,Utah,2008,8.8000000000000007
+47,Utah,2007,9.4
+47,Utah,2006,9.5
+48,Vermont,2023,7.7
+48,Vermont,2022,8.4
+48,Vermont,2021,8.3000000000000007
+48,Vermont,2020,9
+48,Vermont,2019,9
+48,Vermont,2018,9.6
+48,Vermont,2017,10.199999999999999
+48,Vermont,2016,9.9
+48,Vermont,2015,8.9
+48,Vermont,2014,N
+48,Vermont,2013,10.5
+48,Vermont,2012,11.2
+48,Vermont,2011,10.6
+48,Vermont,2010,9.6999999999999993
+48,Vermont,2009,9.4
+48,Vermont,2008,8.9
+48,Vermont,2007,8.4
+48,Vermont,2006,7.7
+49,Virginia,2023,9.1999999999999993
+49,Virginia,2022,8.6
+49,Virginia,2021,8.8000000000000007
+49,Virginia,2020,8.8000000000000007
+49,Virginia,2019,9.6999999999999993
+49,Virginia,2018,10.7
+49,Virginia,2017,10.8
+49,Virginia,2016,10.8
+49,Virginia,2015,10.3
+49,Virginia,2014,N
+49,Virginia,2013,10.8
+49,Virginia,2012,10.9
+49,Virginia,2011,10.9
+49,Virginia,2010,10.6
+49,Virginia,2009,9.9
+49,Virginia,2008,9.1999999999999993
+49,Virginia,2007,8.8000000000000007
+49,Virginia,2006,9.1
+50,Washington,2023,8.5
+50,Washington,2022,8.3000000000000007
+50,Washington,2021,7.6
+50,Washington,2020,7.9
+50,Washington,2019,8.8000000000000007
+50,Washington,2018,10.3
+50,Washington,2017,10.7
+50,Washington,2016,11.5
+50,Washington,2015,11.9
+50,Washington,2014,N
+50,Washington,2013,12
+50,Washington,2012,11.9
+50,Washington,2011,11.9
+50,Washington,2010,11.2
+50,Washington,2009,10.8
+50,Washington,2008,9.5
+50,Washington,2007,9.4
+50,Washington,2006,9.8000000000000007
+51,West Virginia,2023,15.2
+51,West Virginia,2022,15.5
+51,West Virginia,2021,15
+51,West Virginia,2020,14.6
+51,West Virginia,2019,15.6
+51,West Virginia,2018,17.2
+51,West Virginia,2017,16.600000000000001
+51,West Virginia,2016,17.7
+51,West Virginia,2015,18.3
+51,West Virginia,2014,N
+51,West Virginia,2013,17.2
+51,West Virginia,2012,17
+51,West Virginia,2011,16.7
+51,West Virginia,2010,15.7
+51,West Virginia,2009,15
+51,West Virginia,2008,14.9
+51,West Virginia,2007,15.2
+51,West Virginia,2006,15
+52,Wisconsin,2023,8.4
+52,Wisconsin,2022,8
+52,Wisconsin,2021,8.6
+52,Wisconsin,2020,8.3000000000000007
+52,Wisconsin,2019,8.6999999999999993
+52,Wisconsin,2018,9.5
+52,Wisconsin,2017,10.5
+52,Wisconsin,2016,11
+52,Wisconsin,2015,11.9
+52,Wisconsin,2014,N
+52,Wisconsin,2013,11.8
+52,Wisconsin,2012,11.5
+52,Wisconsin,2011,11.3
+52,Wisconsin,2010,10.199999999999999
+52,Wisconsin,2009,10.5
+52,Wisconsin,2008,10.3
+52,Wisconsin,2007,10.4
+52,Wisconsin,2006,10.9
+53,Wyoming,2023,8.6
+53,Wyoming,2022,8.6999999999999993
+53,Wyoming,2021,9.4
+53,Wyoming,2020,9.4
+53,Wyoming,2019,10.5
+53,Wyoming,2018,11.4
+53,Wyoming,2017,11
+53,Wyoming,2016,10.1
+53,Wyoming,2015,10.3
+53,Wyoming,2014,N
+53,Wyoming,2013,10.7
+53,Wyoming,2012,10
+53,Wyoming,2011,9.8000000000000007
+53,Wyoming,2010,9.6
+53,Wyoming,2009,10.1
+53,Wyoming,2008,10.3
+53,Wyoming,2007,10.5
+53,Wyoming,2006,10.199999999999999
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2023,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2022,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2021,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2020,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2019,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2018,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2017,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2016,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2015,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2014,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2013,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2012,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2011,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2010,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2009,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2008,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2007,NA
+54,"Source: U.S. Census Bureau, Current Population Survey, 1960 to 2024 Annual Social and Economic Supplements (CPS ASEC).",2006,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2023,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2022,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2021,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2020,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2019,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2018,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2017,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2016,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2015,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2014,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2013,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2012,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2011,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2010,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2009,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2008,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2007,NA
+55,Footnotes are available at <www.census.gov/topics/income-poverty/poverty/guidance/poverty-footnotes/cps-historic-footnotes.html>.,2006,NA
