@@ -255,7 +255,7 @@ plot_usmap(data = combined_map_data, values = "Value_norm") +
   labs(title = "Spatial Variation of Median Income and Poverty Rate by State",
        subtitle = "Before vs. After COVID")
 
-#----------------------------------------------- new dataset unemployment rates
+#----------------------------------------------- new dataset unemployment rates/////MIGHT NOT NEED THIS
 library(readxl)
 library(dplyr)
 
@@ -302,6 +302,157 @@ View(data_unemployed)
 
 #last step, saving this file
 write.csv(data_unemployed, "data_unemployed.csv", row.names = FALSE)
+#----------------------------------------------------------END
+library(dplyr)
+library(tidyr)
+
+# 1. Checking column names
+colnames(combined_race)
+colnames(long_new_dataset)
+
+# Convert to numeric (if not already)
+long_new_dataset <- long_new_dataset %>%
+  mutate(
+    PovertyRate = as.numeric(PovertyRate),
+    Year = as.integer(Year)
+  )
+
+combined_race <- combined_race %>%
+  mutate(
+    Percentage = as.numeric(Percentage),
+    Year = as.integer(Year)
+  )
+
+# Merge datasets by Location and Year
+poverty_race <- left_join(combined_race, long_new_dataset, by = c("Location", "Year"))
+
+#remove last unwanted column
+poverty_race <- poverty_race %>% select(-`...1`)
+
+# Check merged data
+View(poverty_race)
+
+#--------------------------- creating the plot of poverty_race
+# Load required libraries
+#install.packages("maps")
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(maps)
+
+# Step 1: Create a new variable to separate before and after COVID periods for whites
+poverty_race <- poverty_race %>%
+  mutate(
+    CovidPeriod = ifelse(Year < 2020, "Before COVID", "After COVID")
+  )
+
+# Step 2: Prepare the US states map with lowercase state names
+states_map <- st_as_sf(map("state", plot = FALSE, fill = TRUE)) %>%
+  mutate(Location = tolower(ID))
+
+# Step 3: Prepare data for plotting
+map_data_ready <- poverty_race %>%
+  filter(Race == "White") %>%        # Change race here if needed
+  mutate(Location = tolower(Location)) %>%
+  select(Location, PovertyRate, CovidPeriod)
+
+# Step 4: Join map data with poverty data
+states_map <- states_map %>%
+  left_join(map_data_ready, by = "Location")
+
+# Step 5: Plot maps with facets for Before and After COVID
+ggplot(states_map) +
+  geom_sf(aes(fill = PovertyRate), color = "white") +
+  scale_fill_viridis_c(option = "plasma", na.value = "grey90") +
+  facet_wrap(~CovidPeriod) +
+  labs(
+    title = "Poverty Rate by State for White Population",
+    fill = "Poverty Rate"
+  ) +
+  theme_minimal()
+
+# For Hispanic
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(maps)
+
+# Prepare map data
+states_map <- st_as_sf(map("state", plot = FALSE, fill = TRUE)) %>%
+  mutate(Location = tolower(ID))
+
+# Prepare poverty data for the selected race (example: Hispanic)
+map_data_ready <- poverty_race %>%
+  filter(Race == "Hispanic") %>%
+  mutate(Location = tolower(Location),
+         CovidPeriod = ifelse(Year < 2020, "Before COVID", "After COVID")) %>%
+  select(Location, PovertyRate, CovidPeriod)
+
+# Join and keep all combinations of Location and CovidPeriod for faceting
+states_map_long <- states_map %>%
+  inner_join(map_data_ready, by = "Location")
+
+# Plot with facets
+ggplot(states_map_long) +
+  geom_sf(aes(fill = PovertyRate), color = "white") +
+  scale_fill_viridis_c(option = "plasma", na.value = "grey90") +
+  facet_wrap(~CovidPeriod) +
+  labs(
+    title = "Poverty Rate by State for Hispanic Population",
+    fill = "Poverty Rate"
+  ) +
+  theme_minimal()
+
+
+# for black
+map_data_ready <- poverty_race %>%
+  filter(Race == "Black") %>%
+  mutate(Location = tolower(Location),
+         CovidPeriod = ifelse(Year < 2020, "Before COVID", "After COVID")) %>%
+  select(Location, PovertyRate, CovidPeriod)
+
+states_map_long <- states_map %>%
+  left_join(map_data_ready, by = "Location")
+
+ggplot(states_map_long) +
+  geom_sf(aes(fill = PovertyRate), color = "white") +
+  scale_fill_viridis_c(option = "plasma", na.value = "grey90") +
+  facet_wrap(~CovidPeriod) +
+  labs(
+    title = "Poverty Rate by State for Black Population",
+    fill = "Poverty Rate"
+  ) +
+  theme_minimal()
+
+#for asian
+map_data_ready <- poverty_race %>%
+  filter(Race == "Asian") %>%
+  mutate(Location = tolower(Location),
+         CovidPeriod = ifelse(Year < 2020, "Before COVID", "After COVID")) %>%
+  select(Location, PovertyRate, CovidPeriod)
+
+states_map_long <- states_map %>%
+  left_join(map_data_ready, by = "Location")
+
+ggplot(states_map_long) +
+  geom_sf(aes(fill = PovertyRate), color = "white") +
+  scale_fill_viridis_c(option = "plasma", na.value = "grey90") +
+  facet_wrap(~CovidPeriod) +
+  labs(
+    title = "Poverty Rate by State for Asian Population",
+    fill = "Poverty Rate"
+  ) +
+  theme_minimal()
+
+
+
+
+
+
+
+
+
+
 
 
 
