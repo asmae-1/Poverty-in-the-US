@@ -31,10 +31,10 @@ tutorial lecturer's name: Chantal Schouwenaar
 The COVID-19 pandemic has had a catastrophic impact on poverty within the United States, leading to a reversal of decades of progress of Americans. According to U.S. Census Bureau (2021), the official poverty rate had increased by 1% during the COVID pandemic, between 2019 and 2020. Poverty can be recognized as a major social problem both within the United States and worldwide due to its effects on families and communities as basic necessity provisions are reduced, further increasing and perpetuating a cycle of poverty.  
 Additionally, the Supplemental Poverty Measure (SPM) demonstrated a sharp increase in poverty in the years 2022 to 2023 from 12.4% to 12.9%, illustrating the fragility of many households during and after the pandemic as many people lost their jobs and were thus still recovering (U.S. Census Bureau, 2023). 
  
-Thus, this research aims to investigate the poverty rates in the United States pre and post COVID-19 between the years 2017 and 2022. The aim of this research is to provide new data post-COVID and provide an analysis on the differences in poverty rates pre and post COVID-19.  
- 
+Thus, this research aims to investigate the poverty rates in the United States pre and post COVID-19 between the years 2017 and 2022. The aim of this research is to provide new data post-COVID and provide an analysis on the differences in poverty rates pre and post COVID-19. 
 
-Use APA referencing throughout your document. [Here's a link to some explanation.](https://www.mendeley.com/guides/apa-citation-guide/)
+US Census Bureau. (2021, 2 november). Income, Poverty and Health Insurance Coverage in the United States: 2020. Census.gov. https://www.census.gov/newsroom/press-releases/2021/income-poverty-health-insurance-coverage.html
+ US Census Bureau. (2023, 1 november). Poverty Measure That Includes Government Assistance Increased to 12.4% in 2022, When Pandemic Relief Ended. Census.gov. https://www.census.gov/library/stories/2023/09/supplemental-poverty-measure.html 
 
 ## 1.1 Describe the Social Problem
 
