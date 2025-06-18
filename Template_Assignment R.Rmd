@@ -1,6 +1,6 @@
 ---
 title: "Investigating COVID-19"
-author: "Suhani Chomal 2869867, Yasmine B, Aljazi A, Asmae Nafid"
+author: "Suhani Chomal 2869867, Yasmine B, Aljazi A, Asmae Nafid hiii"
 date: "`r Sys.Date()`"
 output: pdf_document
 ---
