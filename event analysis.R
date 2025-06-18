@@ -24,3 +24,27 @@ ggplot(us_data, aes(x = year, y = poverty)) +
        y = "Poverty Rate (%)") +
   ylim(11, 12) +
   theme_minimal()
+
+# Read the dataset
+library(readr)
+merged_data <- read_csv("new_data_set111/merged_data.csv")
+
+##now we do the line plot for median income 
+# Load required libraries
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+##Filter for tehe US and the years 2019-2023
+us_income_data <- merged_data %>%
+  filter(State == "United States", year %in% 2019:2023)
+
+# Median Income Line Plot
+ggplot(us_income_data, aes(x = year, y = Median_Income)) +
+  geom_line(color = "darkgreen", size = 1.2) +
+  geom_point(color = "darkgreen", size = 2) +
+  labs(title = "Median Income in the United States (2019–2023)",
+       x = "Year",
+       y = "Median Income (USD)") +
+  scale_y_continuous(limits = c(72000, 84000), breaks = seq(72000, 84000, by = 1000)) +
+  theme_minimal()
