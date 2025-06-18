@@ -1,0 +1,266 @@
+...1,State,year,Percent in poverty
+1,NA,2023,Percent in poverty
+1,NA,2022,Percent in poverty
+1,NA,2021,Percent in poverty
+1,NA,2020,Percent in poverty
+1,NA,2019,Percent in poverty
+2,United States,2023,11.4
+2,United States,2022,11.5
+2,United States,2021,11.2
+2,United States,2020,11.2
+2,United States,2019,11.5
+3,Alabama,2023,14.6
+3,Alabama,2022,14.8
+3,Alabama,2021,14.5
+3,Alabama,2020,14.6
+3,Alabama,2019,14.7
+4,Alaska,2023,10.4
+4,Alaska,2022,11.5
+4,Alaska,2021,11.7
+4,Alaska,2020,12.3
+4,Alaska,2019,11.8
+5,Arizona,2023,12.4
+5,Arizona,2022,12.1
+5,Arizona,2021,11.2
+5,Arizona,2020,11.2
+5,Arizona,2019,12.1
+6,Arkansas,2023,15.7
+6,Arkansas,2022,15.8
+6,Arkansas,2021,15.1
+6,Arkansas,2020,14.7
+6,Arkansas,2019,15
+7,California,2023,11.7
+7,California,2022,11.4
+7,California,2021,11
+7,California,2020,11
+7,California,2019,11.4
+8,Colorado,2023,8.1999999999999993
+8,Colorado,2022,8.5
+8,Colorado,2021,8.9
+8,Colorado,2020,9.3000000000000007
+8,Colorado,2019,9.1
+9,Connecticut,2023,8.9
+9,Connecticut,2022,9.8000000000000007
+9,Connecticut,2021,9.1999999999999993
+9,Connecticut,2020,9.9
+9,Connecticut,2019,9.6999999999999993
+10,Delaware,2023,9.6
+10,Delaware,2022,10.5
+10,Delaware,2021,9.6
+10,Delaware,2020,8.1
+10,Delaware,2019,7.6
+11,District of Columbia,2023,13.4
+11,District of Columbia,2022,14.7
+11,District of Columbia,2021,14.4
+11,District of Columbia,2020,14.7
+11,District of Columbia,2019,13.7
+12,Florida,2023,12.5
+12,Florida,2022,13.1
+12,Florida,2021,12.5
+12,Florida,2020,12.8
+12,Florida,2019,12.8
+13,Georgia,2023,12.9
+13,Georgia,2022,13
+13,Georgia,2021,13.1
+13,Georgia,2020,13.4
+13,Georgia,2019,13.3
+14,Hawaii,2023,9.3000000000000007
+14,Hawaii,2022,10.199999999999999
+14,Hawaii,2021,10.1
+14,Hawaii,2020,9.5
+14,Hawaii,2019,9.4
+15,Idaho,2023,8.8000000000000007
+15,Idaho,2022,8.9
+15,Idaho,2021,8.5
+15,Idaho,2020,9.1999999999999993
+15,Idaho,2019,10
+16,Illinois,2023,10
+16,Illinois,2022,9.4
+16,Illinois,2021,9.3000000000000007
+16,Illinois,2020,9.1999999999999993
+16,Illinois,2019,10.4
+17,Indiana,2023,9.6999999999999993
+17,Indiana,2022,10.9
+17,Indiana,2021,10.8
+17,Indiana,2020,11.2
+17,Indiana,2019,11.1
+18,Iowa,2023,9
+18,Iowa,2022,9.4
+18,Iowa,2021,9.5
+18,Iowa,2020,9.1999999999999993
+18,Iowa,2019,8.6999999999999993
+19,Kansas,2023,8.8000000000000007
+19,Kansas,2022,8.9
+19,Kansas,2021,8.6
+19,Kansas,2020,8.6999999999999993
+19,Kansas,2019,10.4
+20,Kentucky,2023,15.6
+20,Kentucky,2022,15.8
+20,Kentucky,2021,14.6
+20,Kentucky,2020,14.4
+20,Kentucky,2019,14.2
+21,Louisiana,2023,18.899999999999999
+21,Louisiana,2022,16.899999999999999
+21,Louisiana,2021,17.3
+21,Louisiana,2020,17.5
+21,Louisiana,2019,19.100000000000001
+22,Maine,2023,8.6999999999999993
+22,Maine,2022,8.9
+22,Maine,2021,9.1999999999999993
+22,Maine,2020,10
+22,Maine,2019,11.5
+23,Maryland,2023,8.4
+23,Maryland,2022,8.6
+23,Maryland,2021,8
+23,Maryland,2020,8.1
+23,Maryland,2019,7.5
+24,Massachusetts,2023,8.8000000000000007
+24,Massachusetts,2022,8.6
+24,Massachusetts,2021,7.9
+24,Massachusetts,2020,8.1999999999999993
+24,Massachusetts,2019,9.1999999999999993
+25,Michigan,2023,11.9
+25,Michigan,2022,11.7
+25,Michigan,2021,11
+25,Michigan,2020,10.6
+25,Michigan,2019,10.7
+26,Minnesota,2023,7.2
+26,Minnesota,2022,7.7
+26,Minnesota,2021,7
+26,Minnesota,2020,7.4
+26,Minnesota,2019,7.4
+27,Mississippi,2023,17.3
+27,Mississippi,2022,17.8
+27,Mississippi,2021,18.100000000000001
+27,Mississippi,2020,18.8
+27,Mississippi,2019,19.100000000000001
+28,Missouri,2023,11.1
+28,Missouri,2022,11.5
+28,Missouri,2021,10.8
+28,Missouri,2020,10.8
+28,Missouri,2019,11
+29,Montana,2023,9.6999999999999993
+29,Montana,2022,10.7
+29,Montana,2021,10.4
+29,Montana,2020,10.3
+29,Montana,2019,10.1
+30,Nebraska,2023,8.4
+30,Nebraska,2022,8.1
+30,Nebraska,2021,8.4
+30,Nebraska,2020,9.1999999999999993
+30,Nebraska,2019,10.3
+31,Nevada,2023,12.9
+31,Nevada,2022,12.6
+31,Nevada,2021,12.1
+31,Nevada,2020,12.1
+31,Nevada,2019,12.2
+32,New Hampshire,2023,7.1
+32,New Hampshire,2022,7.1
+32,New Hampshire,2021,5.6
+32,New Hampshire,2020,5.4
+32,New Hampshire,2019,5.6
+33,New Jersey,2023,8.4
+33,New Jersey,2022,8.1999999999999993
+33,New Jersey,2021,7.3
+33,New Jersey,2020,7.6
+33,New Jersey,2019,8.1999999999999993
+34,New Mexico,2023,18.5
+34,New Mexico,2022,18.3
+34,New Mexico,2021,16.7
+34,New Mexico,2020,16.2
+34,New Mexico,2019,17.2
+35,New York,2023,12.1
+35,New York,2022,12.4
+35,New York,2021,12.3
+35,New York,2020,11.8
+35,New York,2019,12.1
+36,North Carolina,2023,13.2
+36,North Carolina,2022,13.3
+36,North Carolina,2021,12.8
+36,North Carolina,2020,13.2
+36,North Carolina,2019,13.6
+37,North Dakota,2023,9.4
+37,North Dakota,2022,9.6
+37,North Dakota,2021,9.1
+37,North Dakota,2020,9.5
+37,North Dakota,2019,10.1
+38,Ohio,2023,10.9
+38,Ohio,2022,11.4
+38,Ohio,2021,12.2
+38,Ohio,2020,12.3
+38,Ohio,2019,12.4
+39,Oklahoma,2023,14.9
+39,Oklahoma,2022,15.8
+39,Oklahoma,2021,13.8
+39,Oklahoma,2020,13.3
+39,Oklahoma,2019,12.4
+40,Oregon,2023,9.8000000000000007
+40,Oregon,2022,9.5
+40,Oregon,2021,8.9
+40,Oregon,2020,9.1
+40,Oregon,2019,9.8000000000000007
+41,Pennsylvania,2023,10.6
+41,Pennsylvania,2022,10.8
+41,Pennsylvania,2021,10
+41,Pennsylvania,2020,10.4
+41,Pennsylvania,2019,10.5
+42,Rhode Island,2023,8.9
+42,Rhode Island,2022,8.8000000000000007
+42,Rhode Island,2021,9
+42,Rhode Island,2020,8.9
+42,Rhode Island,2019,9.8000000000000007
+43,South Carolina,2023,12.7
+43,South Carolina,2022,13.3
+43,South Carolina,2021,14
+43,South Carolina,2020,13.7
+43,South Carolina,2019,14.4
+44,South Dakota,2023,8.3000000000000007
+44,South Dakota,2022,9.6999999999999993
+44,South Dakota,2021,10.199999999999999
+44,South Dakota,2020,11
+44,South Dakota,2019,10.6
+45,Tennessee,2023,10.6
+45,Tennessee,2022,11.4
+45,Tennessee,2021,12.3
+45,Tennessee,2020,12.7
+45,Tennessee,2019,12.1
+46,Texas,2023,13.1
+46,Texas,2022,13.7
+46,Texas,2021,12.9
+46,Texas,2020,12.9
+46,Texas,2019,12.6
+47,Utah,2023,6.7
+47,Utah,2022,7.1
+47,Utah,2021,7.5
+47,Utah,2020,7.2
+47,Utah,2019,7.6
+48,Vermont,2023,7.7
+48,Vermont,2022,8.4
+48,Vermont,2021,8.3000000000000007
+48,Vermont,2020,9
+48,Vermont,2019,9
+49,Virginia,2023,9.1999999999999993
+49,Virginia,2022,8.6
+49,Virginia,2021,8.8000000000000007
+49,Virginia,2020,8.8000000000000007
+49,Virginia,2019,9.6999999999999993
+50,Washington,2023,8.5
+50,Washington,2022,8.3000000000000007
+50,Washington,2021,7.6
+50,Washington,2020,7.9
+50,Washington,2019,8.8000000000000007
+51,West Virginia,2023,15.2
+51,West Virginia,2022,15.5
+51,West Virginia,2021,15
+51,West Virginia,2020,14.6
+51,West Virginia,2019,15.6
+52,Wisconsin,2023,8.4
+52,Wisconsin,2022,8
+52,Wisconsin,2021,8.6
+52,Wisconsin,2020,8.3000000000000007
+52,Wisconsin,2019,8.6999999999999993
+53,Wyoming,2023,8.6
+53,Wyoming,2022,8.6999999999999993
+53,Wyoming,2021,9.4
+53,Wyoming,2020,9.4
+53,Wyoming,2019,10.5

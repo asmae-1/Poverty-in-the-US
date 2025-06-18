@@ -1,0 +1,261 @@
+"State","year","Percent in poverty","Median_Income"
+"United States",2023,11.4,79140
+"United States",2022,11.5,78790
+"United States",2021,11.2,80200
+"United States",2020,11.2,78660
+"United States",2019,11.5,77270
+"Alabama",2023,14.6,62230
+"Alabama",2022,14.8,63340
+"Alabama",2021,14.5,64830
+"Alabama",2020,14.6,63320
+"Alabama",2019,14.7,62860
+"Alaska",2023,10.4,94120
+"Alaska",2022,11.5,90540
+"Alaska",2021,11.7,90490
+"Alaska",2020,12.3,87420
+"Alaska",2019,11.8,90190
+"Arizona",2023,12.4,79440
+"Arizona",2022,12.1,78050
+"Arizona",2021,11.2,80570
+"Arizona",2020,11.2,78730
+"Arizona",2019,12.1,77100
+"Arkansas",2023,15.7,58750
+"Arkansas",2022,15.8,57460
+"Arkansas",2021,15.1,60380
+"Arkansas",2020,14.7,61100
+"Arkansas",2019,15,61690
+"California",2023,11.7,89970
+"California",2022,11.4,90290
+"California",2021,11,91680
+"California",2020,11,89130
+"California",2019,11.4,87530
+"Colorado",2023,8.2,95090
+"Colorado",2022,8.5,95550
+"Colorado",2021,8.9,93240
+"Colorado",2020,9.3,89980
+"Colorado",2019,9.1,88360
+"Connecticut",2023,8.9,92410
+"Connecticut",2022,9.8,92640
+"Connecticut",2021,9.2,95750
+"Connecticut",2020,9.9,94330
+"Connecticut",2019,9.7,93820
+"Delaware",2023,9.6,82410
+"Delaware",2022,10.5,80930
+"Delaware",2021,9.6,82310
+"Delaware",2020,8.1,82190
+"Delaware",2019,7.6,81730
+"District of Columbia",2023,13.4,106100
+"District of Columbia",2022,14.7,103500
+"District of Columbia",2021,14.4,105100
+"District of Columbia",2020,14.7,105400
+"District of Columbia",2019,13.7,104100
+"Florida",2023,12.5,69020
+"Florida",2022,13.1,67480
+"Florida",2021,12.5,67940
+"Florida",2020,12.8,67250
+"Florida",2019,12.8,66500
+"Georgia",2023,12.9,70570
+"Georgia",2022,13,69540
+"Georgia",2021,13.1,68440
+"Georgia",2020,13.4,67620
+"Georgia",2019,13.3,68290
+"Hawaii",2023,9.3,94680
+"Hawaii",2022,10.2,93740
+"Hawaii",2021,10.1,96960
+"Hawaii",2020,9.5,98190
+"Hawaii",2019,9.4,96730
+"Idaho",2023,8.8,78500
+"Idaho",2022,8.9,79880
+"Idaho",2021,8.5,80820
+"Idaho",2020,9.2,75420
+"Idaho",2019,10,73750
+"Illinois",2023,10,85900
+"Illinois",2022,9.4,85610
+"Illinois",2021,9.3,88030
+"Illinois",2020,9.2,86120
+"Illinois",2019,10.4,84270
+"Indiana",2023,9.7,76110
+"Indiana",2022,10.9,76520
+"Indiana",2021,10.8,78640
+"Indiana",2020,11.2,76100
+"Indiana",2019,11.1,74200
+"Iowa",2023,9,80440
+"Iowa",2022,9.4,80320
+"Iowa",2021,9.5,80040
+"Iowa",2020,9.2,80200
+"Iowa",2019,8.7,79390
+"Kansas",2023,8.8,81950
+"Kansas",2022,8.9,82170
+"Kansas",2021,8.6,86010
+"Kansas",2020,8.7,82780
+"Kansas",2019,10.4,77600
+"Kentucky",2023,15.6,60790
+"Kentucky",2022,15.8,62260
+"Kentucky",2021,14.6,64920
+"Kentucky",2020,14.4,65790
+"Kentucky",2019,14.2,64010
+"Louisiana",2023,18.9,60780
+"Louisiana",2022,16.9,61530
+"Louisiana",2021,17.3,61750
+"Louisiana",2020,17.5,60220
+"Louisiana",2019,19.1,58130
+"Maine",2023,8.7,77850
+"Maine",2022,8.9,77440
+"Maine",2021,9.2,77730
+"Maine",2020,10,74420
+"Maine",2019,11.5,71430
+"Maryland",2023,8.4,107800
+"Maryland",2022,8.6,110800
+"Maryland",2021,8,111100
+"Maryland",2020,8.1,108900
+"Maryland",2019,7.5,105600
+"Massachusetts",2023,8.8,100200
+"Massachusetts",2022,8.6,98980
+"Massachusetts",2021,7.9,101300
+"Massachusetts",2020,8.2,102900
+"Massachusetts",2019,9.2,100200
+"Michigan",2023,11.9,73630
+"Michigan",2022,11.7,73090
+"Michigan",2021,11,74520
+"Michigan",2020,10.6,74330
+"Michigan",2019,10.7,72440
+"Minnesota",2023,7.2,91470
+"Minnesota",2022,7.7,92060
+"Minnesota",2021,7,92960
+"Minnesota",2020,7.4,91400
+"Minnesota",2019,7.4,89340
+"Mississippi",2023,17.3,52610
+"Mississippi",2022,17.8,51860
+"Mississippi",2021,18.1,52750
+"Mississippi",2020,18.8,52290
+"Mississippi",2019,19.1,52410
+"Missouri",2023,11.1,74620
+"Missouri",2022,11.5,72770
+"Missouri",2021,10.8,71950
+"Missouri",2020,10.8,72700
+"Missouri",2019,11,71620
+"Montana",2023,9.7,75960
+"Montana",2022,10.7,71680
+"Montana",2021,10.4,70200
+"Montana",2020,10.3,68790
+"Montana",2019,10.1,70200
+"Nebraska",2023,8.4,86040
+"Nebraska",2022,8.1,84490
+"Nebraska",2021,8.4,86320
+"Nebraska",2020,9.2,83900
+"Nebraska",2019,10.3,80120
+"Nevada",2023,12.9,76190
+"Nevada",2022,12.6,72940
+"Nevada",2021,12.1,75910
+"Nevada",2020,12.1,76450
+"Nevada",2019,12.2,76350
+"New Hampshire",2023,7.1,95540
+"New Hampshire",2022,7.1,97280
+"New Hampshire",2021,5.6,102200
+"New Hampshire",2020,5.4,101200
+"New Hampshire",2019,5.6,97620
+"New Jersey",2023,8.4,95590
+"New Jersey",2022,8.2,98420
+"New Jersey",2021,7.3,101200
+"New Jersey",2020,7.6,97470
+"New Jersey",2019,8.2,93290
+"New Mexico",2023,18.5,59840
+"New Mexico",2022,18.3,59360
+"New Mexico",2021,16.7,60790
+"New Mexico",2020,16.2,60050
+"New Mexico",2019,17.2,58840
+"New York",2023,12.1,80730
+"New York",2022,12.4,80300
+"New York",2021,12.3,82420
+"New York",2020,11.8,81850
+"New York",2019,12.1,80320
+"North Carolina",2023,13.2,68900
+"North Carolina",2022,13.3,69590
+"North Carolina",2021,12.8,71200
+"North Carolina",2020,13.2,68940
+"North Carolina",2019,13.6,65650
+"North Dakota",2023,9.4,78650
+"North Dakota",2022,9.6,77990
+"North Dakota",2021,9.1,78420
+"North Dakota",2020,9.5,79010
+"North Dakota",2019,10.1,78730
+"Ohio",2023,10.9,71390
+"Ohio",2022,11.4,70350
+"Ohio",2021,12.2,72620
+"Ohio",2020,12.3,73560
+"Ohio",2019,12.4,74880
+"Oklahoma",2023,14.9,66860
+"Oklahoma",2022,15.8,64880
+"Oklahoma",2021,13.8,66380
+"Oklahoma",2020,13.3,65580
+"Oklahoma",2019,12.4,66330
+"Oregon",2023,9.8,90210
+"Oregon",2022,9.5,90600
+"Oregon",2021,8.9,90080
+"Oregon",2020,9.1,86830
+"Oregon",2019,9.8,82470
+"Pennsylvania",2023,10.6,78740
+"Pennsylvania",2022,10.8,79740
+"Pennsylvania",2021,10,82700
+"Pennsylvania",2020,10.4,80950
+"Pennsylvania",2019,10.5,78610
+"Rhode Island",2023,8.9,83230
+"Rhode Island",2022,8.8,87210
+"Rhode Island",2021,9,87070
+"Rhode Island",2020,8.9,83740
+"Rhode Island",2019,9.8,79220
+"South Carolina",2023,12.7,67790
+"South Carolina",2022,13.3,68280
+"South Carolina",2021,14,71360
+"South Carolina",2020,13.7,70850
+"South Carolina",2019,14.4,69660
+"South Dakota",2023,8.3,78110
+"South Dakota",2022,9.7,78240
+"South Dakota",2021,10.2,80400
+"South Dakota",2020,11,76310
+"South Dakota",2019,10.6,72310
+"Tennessee",2023,10.6,70100
+"Tennessee",2022,11.4,67300
+"Tennessee",2021,12.3,67070
+"Tennessee",2020,12.7,66050
+"Tennessee",2019,12.1,67290
+"Texas",2023,13.1,77380
+"Texas",2022,13.7,77700
+"Texas",2021,12.9,78570
+"Texas",2020,12.9,77030
+"Texas",2019,12.6,74990
+"Utah",2023,6.7,99640
+"Utah",2022,7.1,98670
+"Utah",2021,7.5,98930
+"Utah",2020,7.2,96750
+"Utah",2019,7.6,92590
+"Vermont",2023,7.7,81820
+"Vermont",2022,8.4,79650
+"Vermont",2021,8.3,84110
+"Vermont",2020,9,83380
+"Vermont",2019,9,83270
+"Virginia",2023,9.2,91640
+"Virginia",2022,8.6,91540
+"Virginia",2021,8.8,94160
+"Virginia",2020,8.8,94840
+"Virginia",2019,9.7,91770
+"Washington",2023,8.5,94850
+"Washington",2022,8.3,95440
+"Washington",2021,7.6,97070
+"Washington",2020,7.9,95990
+"Washington",2019,8.8,93550
+"West Virginia",2023,15.2,55800
+"West Virginia",2022,15.5,55930
+"West Virginia",2021,15,59100
+"West Virginia",2020,14.6,61510
+"West Virginia",2019,15.6,60540
+"Wisconsin",2023,8.4,78080
+"Wisconsin",2022,8,77810
+"Wisconsin",2021,8.6,79070
+"Wisconsin",2020,8.3,77750
+"Wisconsin",2019,8.7,77480
+"Wyoming",2023,8.6,77590
+"Wyoming",2022,8.7,77380
+"Wyoming",2021,9.4,77790
+"Wyoming",2020,9.4,76060
+"Wyoming",2019,10.5,74960
