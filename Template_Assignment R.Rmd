@@ -65,6 +65,7 @@ head(income_data)
 head(poverty_data)
 ```
 
+
 In this case we see 28 variables, but we miss some information on what units they are in. We also don't know anything about the year/moment in which this data has been captured.
 
 ``` r
@@ -72,6 +73,22 @@ inline_code = TRUE
 ```
 
 These are things that are usually included in the metadata of the dataset. For your project, you need to provide us with the information from your metadata that we need to understand your dataset of choice.
+
+Dataset 1:
+Title: U.S. State-Level Poverty Rates: 2017–2023
+Source: U.S. Census Bureau – Percent of People in Poverty by State, 3-Year Averages: 2004 to 2023
+This U.S. government source provides pre-COVID and COVID poverty data and annual statistics by state on poverty from 2017–2022. The numbers for poverty rates are presented as an overview for each of the 50 states which allow for comparisons over time and geography. The data is compiled using a mixture of national surveys and records.
+ 
+Dataset 2:
+Title: Median Household Income by State: 2017–2023
+Source: U.S. Census Bureau – Median Income of Households by State Using Three-Year Moving Averages
+The 2017 to 2023 report also provides annual data on median household income across states. This dataset is the main tool for getting insight into the economic situations surrounding the poverty rates, giving a picture of how average earnings have changed before and after the COVID-19 pandemic.
+ 
+The datasets that we chose are quite suitable for this research project because they offer consistent, annual, state-level data on two key socioeconomic indicators: poverty and income. These indicators make it possible to carry out a meaningful analysis of how the economic situation changed due to the pandemic. The U.S. Census Bureau was chosen as the principal source because it has the highest reputation as the leader in population and economic data in the United States. Its datasets are methodologically robust and are widely used by researchers and policymakers. Besides, the shared format, structure, and coverage years of both datasets facilitate direct comparison and combined analysis of the two datasets.
+As for the metadata, both datasets are stored in the Excel format and are depicted in a tabular form. A dataset for each year from 2017 to 2023, inclusive, for all U.S. states is presented here. The poverty dataset provides variables such as total population, number below poverty, poverty rate and margin of error. The income dataset comprises the median household income figures per state in the current U.S. dollars.
+ 
+As for limitations, both datasets have their constraints. The data is only available at the state level, limiting any in-depth analysis by smaller regions such as counties or cities. Neither dataset includes demographic variables such as race, age, or gender, which reduces the ability to assess the differential impact of COVID-19 on specific groups. In addition, the income figures are not inflation-adjusted, which may slightly distort comparisons over time unless adjusted. Lastly, the datasets focus on income-based poverty only, without accounting for broader measures of deprivation such as access to services or cost-of-living disparities. 
+
 
 ## 2.3 Describe the type of variables included
 
@@ -82,6 +99,13 @@ Think of things like:
 -   Have they been measured by interviewing individuals or is the data coming from administrative sources?
 
 *For the sake of this example, I will continue with the assignment...*
+
+This report includes datasets that show how certain socioeconomic variables (SES) relate to household income and poverty rates over time in several US states. These factors are crucial for understanding the changes in the economy and poverty levels both before and after the COVID-19 pandemic. 
+ 
+Poverty dataset contains state-specific percentages and three-year averages. These factors represent economic deprivation at the state level and are based on official administrative data sources produced by the United States Census Bureau, rather than individual-level interviews. As for the income dataset, it includes variables such median household income by state, which is provided as three-year moving averages. The dataset also comes from administrative sources, depicting total household financial stability which is a good predictor of socioeconomic positioning. 
+ 
+The socioeconomic status (SES) of households depends heavily on these variables because they represent their financial situation even though they lack direct health data. Reliable administrative sources provide information which ensures consistent comparability between different states and time periods. Researchers can use these variables to analyze how COVID-19 affected poverty patterns throughout the United States based on socioeconomic factors.
+
 
 # Part 3 - Quantifying
 
