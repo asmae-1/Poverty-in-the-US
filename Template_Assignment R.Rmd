@@ -89,13 +89,50 @@ The socioeconomic status (SES) of households depends heavily on these variables 
 
 # Part 3 - Quantifying
 
-## 3.1 Data cleaning
+## 3.1 Data cleaning (Please find the whole code attached on the Github repository, link provided at the bottom.)
 
 Say we want to include only larger distances (above 2) in our dataset, we can filter for this.
 
 ```{r data_cleaning}
 mean(dataset$percollege)
 ```
+(Poverty Dataset) 
+
+To prepare the income dataset for analysis, we reshaped it from wide to long format using pivot_longer(), extracted the correct year values from column names, converted values to numeric, and removed irrelevant rows such as footnotes and outdated years that were not needed for the comparison with poverty rates. 
+
+# Reshape dataset to long format 
+
+long_new_dataset <- pivot_longer(final_income_data, cols = 3:ncol(final_income_data), names_to = "year", values_to = "Percent in poverty") 
+
+  
+
+# Extract the year from column names 
+
+long_new_dataset$year <- substr(long_new_dataset$year, 25, 28) 
+
+  
+
+# Remove rows with footnotes and outdated years 
+
+long_new_dataset <- long_new_dataset[!grepl("Source:|Footnotes", long_new_dataset$year), ] 
+
+ (Income Dataset) 
+
+To prepare the income dataset, we removed irrelevant columns and outdated years (pre-2017), extracted year values from period labels, and reshaped the dataset into a long format suitable for analysis. This allowed for easier comparison with the poverty rate data. 
+
+# Remove old or unnecessary columns 
+
+income_data_new <- income_data %>% 
+
+ select(State, `2021-2023`, `2020-2022`, `2019-2021`, `2018-2020 (41)`, `2017-2019 (40)`) 
+
+# Reshape to long format 
+
+long_income_data <- pivot_longer(income_data_new, cols = -State, names_to = "Period", values_to = "Median_Income") 
+
+# Extract final year from each period 
+
+long_income_data$Period <- substr(long_income_data$Period, 6, 9) 
 
 Please use a separate 'R block' of code for each type of cleaning. So, e.g. one for missing values, a new one for removing unnecessary variables etc.
 
