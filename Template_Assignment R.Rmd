@@ -80,14 +80,6 @@ As for limitations, both datasets have their constraints. The data is only avail
 
 ## 2.3 Describe the type of variables included
 
-Think of things like:
-
--   Do the variables contain health information or SES information?
-
--   Have they been measured by interviewing individuals or is the data coming from administrative sources?
-
-*For the sake of this example, I will continue with the assignment...*
-
 This report includes datasets that show how certain socioeconomic variables (SES) relate to household income and poverty rates over time in several US states. These factors are crucial for understanding the changes in the economy and poverty levels both before and after the COVID-19 pandemic. 
  
 Poverty dataset contains state-specific percentages and three-year averages. These factors represent economic deprivation at the state level and are based on official administrative data sources produced by the United States Census Bureau, rather than individual-level interviews. As for the income dataset, it includes variables such median household income by state, which is provided as three-year moving averages. The dataset also comes from administrative sources, depicting total household financial stability which is a good predictor of socioeconomic positioning. 
