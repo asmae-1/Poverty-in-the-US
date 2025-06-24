@@ -65,15 +65,6 @@ head(income_data)
 head(poverty_data)
 ```
 
-
-In this case we see 28 variables, but we miss some information on what units they are in. We also don't know anything about the year/moment in which this data has been captured.
-
-``` r
-inline_code = TRUE
-```
-
-These are things that are usually included in the metadata of the dataset. For your project, you need to provide us with the information from your metadata that we need to understand your dataset of choice.
-
 Dataset 1:
 Title: U.S. State-Level Poverty Rates: 2017–2023
 Source: U.S. Census Bureau – Percent of People in Poverty by State, 3-Year Averages: 2004 to 2023
@@ -232,6 +223,16 @@ Here you provide a description of why the plot above is relevant to your specifi
 
 ## 4.1 Discuss your findings
 
+Our analysis within this study investigated the impact of the COVID-19 pandemic on poverty rates in the US, focusing on the period from 2019 to 2023. This data reveals several important trends as following:
+
+•	Temporal trends: The line plot of the median income and poverty rates clearly demonstrates a shift during the COVID years, especially a noticeable increase in the poverty rates between 2019 and 2020, coinciding with the onset of the pandemic. This aligns with the official statistics indicating a rise of 1% in the poverty rate during this period. 
+
+•	Event analysis: By marking the 2020 year as the year of the COVID-19 pandemic outbreak on our poverty rate plot, we highlighted the immediate, accurate, and significant effect of the pandemic. The visual evidence supports our conclusion that COVID-19 had a significant and negative impact on economic well-being for many Americans across several different races, reversing the previous progress that had been conducted prior to the pandemic in regard to poverty reduction. 
+
+•	Spatial and sub-population variation: Although the primary focus of our study was on national trends, our sub-population analysis suggested that the impact of poverty was not uniform across all groups, as certain states may have experienced higher rates of increase in poverty, thus highlighting the need for targeted policy interventions.
+
+•	Policy implications: The implications of this study and its results are significant and crucial for policymakers, as this data suggests that pandemic-related economic shocks have a disproportionate effect on vulnerable populations, and that recovery efforts should thus focus on these groups as a priority. Additionally, continued monitoring is necessary to assess the long-term effects of the pandemic on poverty and income inequality.
+
 # Part 5 - Reproducibility
 
 ## 5.1 Github repository link
@@ -242,4 +243,13 @@ https://github.com/asmae-1/Poverty-in-the-US
 
 ## 5.2 Reference list
 
-Use APA referencing throughout your document.
+KFF. (2023). Population Distribution by Race/Ethnicity | KFF. KFF. https://www.kff.org/other/state-indicator/distribution-by-raceethnicity/?dataView=0
+
+U.S. Census Bureau. (2021, September 14). Income, Poverty and Health Insurance Coverage in the U.S.: 2020. The United States Census Bureau. 
+https://www.census.gov/newsroom/press-releases/2021/income-poverty-health-insurance-coverage.html
+
+U.S. Census Bureau. (2023, September 12). Poverty Measure That Includes Government Assistance Increased to 12.4% in 2022, When Pandemic Relief Ended. Census.gov. https://www.census.gov/library/stories/2023/09/supplemental-poverty-measure.htmlUS Census Bureau. (2024a, August 30). 
+
+Historical Income Tables: Households. Census.gov. https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.htmlUS Census Bureau. (2024b, September 10). 
+
+Historical Poverty Tables: People and Families - 1959 to 2023. Census.gov. https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-people.html
