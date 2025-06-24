@@ -1,11 +1,11 @@
 ---
-title: "Investigating COVID-19"
-author: "Suhani Chomal 2869867, Yasmine B, Aljazi A, Asmae Nafid"
-date: "`r Sys.Date()`"
+title: "Investigating COVID- 19 poverty"
+author: "Suhani Chomal 2869867, Yasmine Baghedoud 2841987, Aljazi Almaari 2863840, Asmae Nafid 2838731"
+date: " r Sys.Date(24-06-2025)G "
 output: pdf_document
 ---
 
-# Set-up your environment
+# Seting-up our environment
 
 ```{r package_install, include=FALSE}
 install.packages("tidyverse")
@@ -21,40 +21,48 @@ require(yaml)
 
 # Title Page
 
-Include your names
+names: Suhani Chomal , Yasmine Baghedoud , Aljazi Almaari , Asmae Nafid 
 
-Include the tutorial group number
+tutorial group number: CPR02
 
-Include your tutorial lecturer's name
+tutorial lecturer's name: Chantal Schouwenaar
 
 # Part 1 - Identify a Social Problem
+The COVID-19 pandemic has had a catastrophic impact on poverty within the United States, leading to a reversal of decades of progress of Americans. According to U.S. Census Bureau (2021), the official poverty rate had increased by 1% during the COVID pandemic, between 2019 and 2020. Poverty can be recognized as a major social problem both within the United States and worldwide due to its effects on families and communities as basic necessity provisions are reduced, further increasing and perpetuating a cycle of poverty.  
+Additionally, the Supplemental Poverty Measure (SPM) demonstrated a sharp increase in poverty in the years 2022 to 2023 from 12.4% to 12.9%, illustrating the fragility of many households during and after the pandemic as many people lost their jobs and were thus still recovering (U.S. Census Bureau, 2023). 
 
-Use APA referencing throughout your document. [Here's a link to some explanation.](https://www.mendeley.com/guides/apa-citation-guide/)
+US Census Bureau. (2021, 2 november). Income, Poverty and Health Insurance Coverage in the United States: 2020. Census.gov. https://www.census.gov/newsroom/press-releases/2021/income-poverty-health-insurance-coverage.html
+ US Census Bureau. (2023, 1 november). Poverty Measure That Includes Government Assistance Increased to 12.4% in 2022, When Pandemic Relief Ended. Census.gov. https://www.census.gov/library/stories/2023/09/supplemental-poverty-measure.html 
 
 ## 1.1 Describe the Social Problem
+Understanding of how poverty changed before and after the pandemic is vital for Developing focused policy responses and efficiently distributing resources.  Policymakers can use it to determine which groups were most impacted and evaluate how COVID-19 will effect economic inequality in the long run.
 
-Include the following:
-
--   Why is this relevant?
-
--   ...
+this research aims to investigate the poverty rates in the United States pre and post COVID-19 between the years 2017 and 2022. The aim of this research is to provide new data post-COVID and provide an analysis on the differences in poverty rates pre and post COVID-19.
 
 # Part 2 - Data Sourcing
 
 ## 2.1 Load in the data
 
-Preferably from a URL, but if not, make sure to download the data and store it in a shared location that you can load the data in from. Do not store the data in a folder you include in the Github repository!
+The datasets:
+	•	Median Income of Households by State Using Three-Year Moving Averages
+	https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html 
+	•	Percent of People in Poverty by State, 3-Year Averages: 2004 to 2023
+	https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-people.html
 
-```{r loading_data}
-dataset <- midwest
-```
+# Load the income dataset
+library(readxl)
+income_data_4_ <- read_excel("~/Documents/GitHub/income data (4).xlsx")
 
-midwest is an example dataset included in the tidyverse package
+# Load the poverty dataset
+library(readr)
+dataset <- read_csv("~/Documents/GitHub/dataset.csv")
+
 
 ## 2.2 Provide a short summary of the dataset(s)
 
 ```{r}
-head(dataset)
+head(income_data)
+head(poverty_data)
 ```
 
 In this case we see 28 variables, but we miss some information on what units they are in. We also don't know anything about the year/moment in which this data has been captured.
@@ -104,7 +112,31 @@ Variable 2
 ## 3.3 Visualize temporal variation
 
 ```{r}
+  theme_minimal()
 
+# Read the dataset
+library(readr)
+merged_data <- read_csv("new_data_set111/merged_data.csv")
+
+##now we do the line plot for median income 
+# Load required libraries
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+##Filter for tehe US and the years 2019-2023
+us_income_data <- merged_data %>%
+  filter(State == "United States", year %in% 2019:2023)
+
+# Median Income Line Plot
+ggplot(us_income_data, aes(x = year, y = Median_Income)) +
+  geom_line(color = "darkgreen", size = 1.2) +
+  geom_point(color = "darkgreen", size = 2) +
+  labs(title = "Median Income in the United States (2019–2023)",
+       x = "Year",
+       y = "Median Income (USD)") +
+  scale_y_continuous(limits = c(72000, 84000), breaks = seq(72000, 84000, by = 1000)) +
+  theme_minimal()
 ```
 
 ## 3.4 Visualize spatial variation
@@ -142,7 +174,32 @@ Here you provide a description of why the plot above is relevant to your specifi
 Analyze the relationship between two variables.
 
 ```{r analysis}
+###Line plot for COVID-19
 
+# Load required libraries
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+# Read the dataset
+data <- read_csv("long_new_dataset.csv")
+
+# Filter for United States data and years 2019-2023
+us_data <- data %>%
+  filter(State == "United States", year %in% 2019:2023) %>%
+  mutate(poverty = as.numeric(`Percent in poverty`))
+
+# Poverty Rate Line Plot
+ggplot(us_data, aes(x = year, y = poverty)) +
+  geom_line(color = "blue", size = 1.2) +
+  geom_point(color = "blue", size = 2) +
+  geom_vline(xintercept = 2020, linetype = "dashed", color = "red", size = 1) +
+  annotate("text", x = 2020, y = 12, label = "COVID-19", color = "red", vjust = -0.5, fontface = "bold") +
+  labs(title = "Average Poverty Rate in the United States (2019–2023)",
+       x = "Year",
+       y = "Poverty Rate (%)") +
+  ylim(11, 12) +
+  theme_minimal()
 ```
 
 Here you provide a description of why the plot above is relevant to your specific social problem.
