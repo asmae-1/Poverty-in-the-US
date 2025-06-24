@@ -77,8 +77,30 @@ library(dplyr)
 
 avg_change_per_region <- poverty_race %>%
   group_by(Region) %>%
-  summarise(avg_change = mean(ChangeInPovertyRate, na.rm = TRUE))
+  summarise(avg_change = mean(ChangeInPovertyRate, na.rm = TRUE)) 
 
 poverty_race <- poverty_race %>%
   left_join(avg_change_per_region, by = "Region") %>%
   rename(`Average Change Poverty Rate Per Region` = avg_change) 
+
+#Variable 2 = Poverty Rise Rate after COVID (%). 
+## Calculate the % increase in poverty rise rate after COVID compared to before COVID per region
+# Formula: ((Poverty Rise Rate After COVID - Poverty Rise Rate Before COVID) / Poverty Rise Rate Before COVID) * 100
+# What: This measures how much more (or less) often poverty rates increased after COVID relative to before COVID, by region.
+# note here thata. negative value is a decline in poverty
+#creating the column
+library(dplyr)
+library(tidyr)
+
+poverty_race <- poverty_race %>%
+  group_by(Region, CovidPeriod) %>%
+  summarise(AvgPovertyRate = mean(PovertyRate, na.rm = TRUE)) %>%
+  pivot_wider(names_from = CovidPeriod, values_from = AvgPovertyRate) %>%
+  mutate(PovertyRiseRateAfterCovid = ((`After COVID` - `Before COVID`) / `Before COVID`) * 100) %>%
+  select(Region, PovertyRiseRateAfterCovid) %>%
+  right_join(poverty_race, by = "Region")
+
+
+#---------------------------------
+#for these 2 variables, The Average Change shows overall trends (before, during, and after COVID).
+# and The Poverty Rise Rate After Covid isolates the COVID impact specifically. 
