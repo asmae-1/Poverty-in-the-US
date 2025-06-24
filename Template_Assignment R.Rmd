@@ -235,6 +235,27 @@ Our analysis within this study investigated the impact of the COVID-19 pandemic 
 
 # Part 5 - Reproducibility
 
+Ensuring the reproducibility of our analysis was a key priority throughout this project. We have taken the following steps to make our work transparent and easy to replicate:
+
+•	Data Sources:
+All datasets used in this analysis are publicly available sources. The specific links are provided in the Data Sourcing section.
+
+•	Code Availability:
+All R codes used for data cleaning, analysis, and visualization is included in this R Markdown document. Each step is clearly labeled and explained, allowing others to follow the workflow.
+
+•	Software and Packages:
+The analysis was conducted using R Studio and the following packages: tidyverse, ggplot2, dplyr, readxl, readr, and rmarkdown. Instructions for installing these packages are provided at the beginning of the document in code form.
+
+•	Documentation:
+Each code chunk is accompanied by comments and explanations to clarify its purpose. Any data transformations or filtering steps are explicitly described.
+
+•	Reproducible Workflow:
+By using R Markdown, we ensure that the entire analysis—from data loading to final visualization—can be rerun by anyone with access to the data and code. This promotes transparency and facilitates peer review.
+
+•	Version Control:
+The project files are stored in a shared GitHub repository for collaboration and version tracking.
+
+
 ## 5.1 Github repository link
 
 The link to our PUBLIC repository is here:
