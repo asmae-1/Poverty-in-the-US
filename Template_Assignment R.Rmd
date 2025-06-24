@@ -212,7 +212,9 @@ Here you provide a description of why the plot above is relevant to your specifi
 
 ## 5.1 Github repository link
 
-Provide the link to your PUBLIC repository here: ...
+The link to our PUBLIC repository is here:
+
+https://github.com/asmae-1/Poverty-in-the-US 
 
 ## 5.2 Reference list
 
