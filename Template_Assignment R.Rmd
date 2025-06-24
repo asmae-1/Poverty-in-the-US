@@ -138,17 +138,30 @@ Please use a separate 'R block' of code for each type of cleaning. So, e.g. one 
 
 ## 3.2 Generate necessary variables
 
-Variable 1
+Variable 1: Change in poverty rate
 
 ```{r gen_var1}
 
 ```
+This variable captures the year-to-year change in poverty rates for each race within each state. It is calculated as:
 
-Variable 2
+ ChangeInPovertyRate_t = PovertyRate_t − PovertyRate_(t−1)
+
+ By comparing each year’s poverty rate to the previous year’s, this variable helps us track how poverty evolves over time for different demographic groups and locations, revealing trends and fluctuations within states.
+
+
+Variable 2: Poverty rise rate after COVID-19 (%)
 
 ```{r gen_var2}
 
 ```
+
+This variable measures the percentage change in average poverty rates after COVID relative to before COVID, broken down by region. It is calculated as:
+
+ PovertyRiseRateAfterCovid = ((After COVID − Before COVID) / Before COVID) × 100
+
+ This shows how the pandemic affected poverty levels regionally, highlighting where poverty increased or decreased compared to pre-pandemic times. It provides insight into the spatial impact of COVID-19 on poverty across the US.
+
 
 ## 3.3 Visualize temporal variation
 
@@ -185,8 +198,7 @@ ggplot(us_income_data, aes(x = year, y = Median_Income)) +
 ```{r visualise_map}
 
 ```
-
-Here you provide a description of why the plot above is relevant to your specific social problem.
+The map displays how poverty rates vary across US states before and after the COVID-19 pandemic, with darker colors indicating higher poverty levels. This geographic variation shows that the impact of poverty differs by state and region, reflecting how some areas were more affected by the pandemic than others. Visualizing these spatial differences is important to understand where poverty worsened or improved due to COVID-19. This aligns with our topic by clearly illustrating the changing landscape of poverty in the US in response to the pandemic.
 
 ## 3.5 Visualize sub-population variation
 
@@ -208,7 +220,9 @@ ggplot(dataset, aes(x = inmetro, y = percadultpoverty)) +
   )
 ```
 
-Here you provide a description of why the plot above is relevant to your specific social problem.
+Poverty rates vary across states, which are grouped into five regions: North, East, South, West, and Midwest. To better understand these differences, two important variables are examined: the Poverty Rise Rate After COVID (%) by region and the Average Change in Poverty Rate per region.
+These visualizations are relevant because they reveal how poverty trends and changes differ among regions and sub-populations. By comparing the impact of COVID-19 on poverty levels and the general year-to-year changes, we gain insight into which regions were most affected and how poverty evolved within different groups across the country.
+
 
 ## 3.6 Event analysis
 
